@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/leftoverfood/app/src/main/res/layout/custom_recycler_view.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/leftoverfood/app/src/main/res/layout/fragment_about_us.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/leftoverfood/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/leftoverfood/app/src/main/res/layout/fragment_donar_home.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/leftoverfood/app/src/main/res/layout/fragment_my_listings.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/drawable/blue_fill__rounded_color.xml" value="0.1645" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/drawable/round_corner_image.xml" value="0.1875" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/font/alegreya_italic.xml" value="0.28020833333333334" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_dialogbox.xml" value="0.20652173913043478" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_donar_navigation_drawer.xml" value="0.17481884057971014" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_feast_giving.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_give_away_food.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_google_map.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_h.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_register_volunteer.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_registerdonar.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_take_away_food.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_view_items_from_recycler_donar.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/activity_view_items_from_recycler_volunteer.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/blank2_volunteer.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/blank_volunteer.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/bottom_toolbar.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/bottomsheet_layout_donar.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/bottomsheet_layout_volunteer.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/custom_recycler_view.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/fragment_about_us.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/fragment_donar_home.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/fragment_my_listings.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/fragment_users_near_me.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/fragment_volunteer_home.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/toolbar.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/layout/toolbar_backpressed.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/menu/bottom_menu.xml" value="0.25" />
+        <entry key="..\:/project/prathmesh/Project/app/src/main/res/menu/nav_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

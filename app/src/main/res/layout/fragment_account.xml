@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/myAccountToolbar"
+        layout="@layout/toolbar">
+    </include>
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:layout_marginStart="15sp"
+                android:textColor="@color/black"
+                android:text="@string/first_name"
+                android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginEnd="15sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/common_google_signin_btn_text_dark_disabled"
+                    android:textSize="15sp"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:layout_marginStart="15sp"
+                android:textColor="@color/black"
+                android:text="@string/last_name"
+                android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginEnd="15sp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/common_google_signin_btn_text_dark_disabled"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:layout_marginStart="15sp"
+                android:textColor="@color/black"
+                android:text="@string/email_address"
+                android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/email_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginEnd="15sp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/common_google_signin_btn_text_dark_disabled"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:layout_marginStart="15sp"
+                android:textColor="@color/black"
+                android:text="@string/state"
+                android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/currentState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginEnd="15sp"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/common_google_signin_btn_text_dark_disabled"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:layout_marginStart="15sp"
+                android:textColor="@color/black"
+                android:text="@string/city"
+                android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/city_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginEnd="15sp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:backgroundTint="@color/common_google_signin_btn_text_dark_disabled"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:layout_marginStart="15sp"
+                android:textColor="@color/black"
+                android:text="@string/pincode"
+                android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/pincode_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginEnd="15sp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:backgroundTint="@color/common_google_signin_btn_text_dark_disabled"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_gravity="center"
+                android:id="@+id/saveAccount"
+                android:text="@string/save_account"
+                android:textColor="#ffffff"
+                android:background="@drawable/blue_fill__rounded_color"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

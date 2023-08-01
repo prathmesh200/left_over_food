@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/donar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegisterActivity_Donor">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp">
+
+            <ImageView
+                android:id="@+id/cancel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/cancel">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_height="50dp"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:text="@string/choose_your_rolee"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/donor_btn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="110dp"
+
+                android:background="@drawable/blue_fill__rounded_color"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="@string/donor"
+                android:textColor="#ffffff"
+                android:textSize="15sp"/>
+
+            <Button
+                android:id="@+id/volunteer_btn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="170dp"
+                android:background="@drawable/blue_fill__rounded_color"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="@string/volunteer"
+                android:textColor="#ffffff"
+                android:textSize="15sp"/>
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
